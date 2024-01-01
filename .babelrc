@@ -1,0 +1,5 @@
+//файл для конвертации в babel формат
+{
+    "presets": ["@babel/preset-env"], //babel будет работать с es5
+    "plugins": ["@babel/plugin-transform-runtime"]
+}

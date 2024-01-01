@@ -1,0 +1,32 @@
+body {
+  margin: 50px 0 !important;
+  font-family: Helvetica, sans-serif, Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.post {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 300px;
+}
+
+.post__image {
+  flex: 0.12;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.post__info {
+  flex: 0.3;
+  padding: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
